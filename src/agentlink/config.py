@@ -4,7 +4,7 @@ from typing import Literal
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-DEV_SECRET_KEY = "dev-only-change-me-dev-only-change-me"
+DEV_SECRET = "dev-only-change-me-dev-only-change-me"
 
 class Settings(BaseSettings):
     """All configuration comes from the environment (prefix AGENTLINK_) or .env file."""
